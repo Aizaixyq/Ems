@@ -1,5 +1,4 @@
-# 项目名称
-
+# EMS(Education Management System)
 这是一个基于 Django 开发的学生管理系统，用于实现学生信息的录入、查询、修改、删除等功能。
 
 ## 项目结构
