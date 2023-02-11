@@ -1,0 +1,17 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Students</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+	<h1>Students</h1>
+	<ul>
+	{% for student in students %}
+		<li>{{ student.name }} - {{ student.age }} - {{ student.gender }}</li>
+	{% endfor %}
+	</ul>
+</body>
+</html>

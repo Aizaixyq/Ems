@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from stu.views import StudentListView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('xmcjqx/', admin.site.urls),
+    path('students/', StudentListView.as_view(), name='student_list'),
 ]
