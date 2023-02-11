@@ -28,7 +28,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-然后在浏览器中访问 http://localhost:8000/ 即可进入学生管理系统。
+然后在浏览器中访问 http://localhost:7890/ 即可进入学生管理系统。
 
 ## 功能
 
