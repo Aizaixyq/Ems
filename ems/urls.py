@@ -19,5 +19,5 @@ from stu.views import StudentListView
 
 urlpatterns = [
     path('xmcjqx/', admin.site.urls),
-    path('students/', StudentListView.as_view(), name='student_list'),
+    path('', StudentListView.as_view(), name='student_list'),
 ]

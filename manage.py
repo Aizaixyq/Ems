@@ -9,7 +9,7 @@ def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ems.settings')
 
-    Runserver.default_addr = "0.0.0.0"
+    #Runserver.default_addr = "0.0.0.0"
     Runserver.default_port = "7890" # 修改默认端口
 
     try:
